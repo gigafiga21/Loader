@@ -1,0 +1,76 @@
+.editor__dialog
+{
+    display: flex;
+    position: relative;
+    bottom: 0%;
+    height: 61px;
+    padding: 3px 18px;
+}
+
+.editor__dialog button
+{
+    flex-grow: 1;
+    border: none;
+    border-radius: 100px;
+    background: none;
+    font-family: Helvetica, Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    transform: scale(1);
+    transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.editor__dialog button:focus
+{
+    outline: none;
+}
+
+.editor__dialog button:active
+{
+    transform: scale(0.95);
+}
+
+button.editor__dialog-left:hover
+{
+    background: rgba(255, 255, 255, 0.05);
+}
+
+button.editor__dialog-left:active
+{
+    background: rgba(255, 255, 255, 0.15);
+}
+
+button.editor__dialog-right
+{
+    margin-left: 24px;
+    background: #fff;
+    color: #000;
+}
+
+button.editor__dialog-right:hover
+{
+    box-shadow: 0 0 30px #333;
+}
+
+button.editor__dialog-right svg
+{
+    display: none;
+}
+
+button.editor__dialog-right--highlighted
+{
+    background: #e021f0;
+    color: #fff;
+}
+
+button.editor__dialog-right--highlighted svg
+{
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    margin-left: 14px;
+    vertical-align: middle;
+}

@@ -1,0 +1,41 @@
+.editor
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 31px 15px;
+    background: #545454;
+}
+
+.editor canvas
+{
+    display: none;
+}
+
+.editor__instructions
+{
+    color: #fff;
+}
+
+.editor__picture
+{
+    height: calc(100% - 280px);
+    padding: 26px 0;
+    text-align: center;
+}
+
+.ReactCrop__drag-handle
+{
+    opacity: 0;
+}
+
+.ReactCrop__crop-selection
+{
+    border: 5px dashed #fff;
+    box-shadow: unset;
+    border-image-source: unset;
+}

@@ -1,0 +1,45 @@
+.loader
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px 21px;
+}
+
+.loader__progress
+{
+    font-family: "SF Pro", "Segoe UI", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #bababa;
+}
+
+.loader__instructions
+{
+    color: #000;
+}
+
+.loader__pictures
+{
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 1;
+    padding-top: 26px;
+}
+
+.loader__content
+{
+    width: 102.45px;
+    height: 102.45px;
+    margin: 0 23.55px 23.55px 0;
+    border-radius: 5px;
+}
+
+.file-drop
+{
+    width: 100%;
+    height: 100%;
+}

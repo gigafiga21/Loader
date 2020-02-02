@@ -1,0 +1,52 @@
+.editor__instruments
+{
+    display: flex;
+    justify-content: center;
+    margin: 0 24px;
+}
+
+.editor__instrument
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    font-family: Helvetica, Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    transition: color 0.3s ease, border 0.3s ease;
+}
+
+.editor__instrument path
+{
+    fill: #fff;
+    transition: fill 0.3s ease;
+}
+
+.editor__instrument svg
+{
+    padding-bottom: 14.61px;
+}
+
+.editor__instrument:active
+{
+    color: #ffcb13;
+}
+
+.editor__instrument:active path
+{
+    fill: #ffcb13;
+}
+
+.editor__instrument--active path
+{
+    fill: #ffcb13;
+}
+
+.editor__instrument--active
+{
+    color: #ffcb13;
+}

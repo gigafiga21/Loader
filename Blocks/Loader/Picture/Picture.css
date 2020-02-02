@@ -1,0 +1,33 @@
+.loader__picture
+{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.loader__picture-cross
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 32.35px;
+    height: 32.35px;
+    border-radius: 50px;
+    background: #4a4a4a;
+    transform: translate(25%, -25%);
+    transition: transform 0.3s ease;
+}
+
+.loader__picture-cross:hover
+{
+    transform: scale(1.25) translate(20%, -20%);
+}
+
+.loader__picture-cross:active
+{
+    transform: scale(0.9) translate(25%, -25%);
+}
